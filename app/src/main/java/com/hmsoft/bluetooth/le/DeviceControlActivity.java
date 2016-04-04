@@ -142,7 +142,7 @@ public class DeviceControlActivity extends Activity {
         // Sets up UI references.
         mDataField = (TextView) findViewById(R.id.data_value);
         edtSend = (EditText) this.findViewById(R.id.edtSend);
-        edtSend.setText("message to sent");
+        edtSend.setText("command");
         svResult = (ScrollView) this.findViewById(R.id.svResult);
         
         btnSend = (Button) this.findViewById(R.id.btnSend);
