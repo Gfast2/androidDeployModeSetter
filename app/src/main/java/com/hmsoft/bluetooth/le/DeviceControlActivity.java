@@ -226,7 +226,7 @@ public class DeviceControlActivity extends Activity {
     	Toast.makeText(this, "This info need to parse.", Toast.LENGTH_SHORT).show();
     }
 
- // ��ť�¼�
+
 	class ClickEvent implements View.OnClickListener {
 		@Override
 		public void onClick(View v) {
