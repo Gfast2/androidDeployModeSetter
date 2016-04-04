@@ -15,7 +15,7 @@
 -->
 <resources>
     <string name="app_name"></string>
-    <string name="ble_not_supported">Your Device don't support BLE</string>
+    <string name="ble_not_supported">Your Device donot support BLE</string>
     <string name="label_data">Data:</string>
     <string name="label_device_address">Device address:</string>
     <string name="label_state">State:</string>
