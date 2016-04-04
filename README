@@ -1,0 +1,6 @@
+This is the iBeacon Setting software.
+
+The main perpose of this app is to simplify process of maintainer after changing new battery of iBeacon.
+He can find the iBeacon and reset it into deploy mode.
+(Byte Real iBeacon uses "deploy mode" to protect hacker to change the advertising signal from the iBeacon)
+
