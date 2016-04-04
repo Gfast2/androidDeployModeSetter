@@ -14,6 +14,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 -->
+<!-- Theme.Holo.Light -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.bluetooth.le"
     android:versionCode="1"
@@ -36,9 +37,9 @@ limitations under the License.
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
 
     <application
-        android:icon="@drawable/ic_launcher"
+        android:icon="@mipmap/pluslab2"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.Holo.Light" >
+        android:theme="@android:style/Theme.Holo" >
         <activity
             android:name="com.hmsoft.bluetooth.le.DeviceScanActivity"
             android:label="@string/app_name"
