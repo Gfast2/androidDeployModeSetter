@@ -23,7 +23,7 @@
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"
 		android:layout_weight="1.0"
-		android:background="#FFFFFFFF"> 
+		android:background="#AAA">
 
         <TextView
             android:focusable="true"
@@ -40,13 +40,14 @@
 		android:layout_height="wrap_content"
 		android:layout_margin="0px"
 		android:stretchColumns="0"
-		android:layout_gravity="bottom">
+		android:layout_gravity="bottom"
+		android:background="#AAA">
 		<TableRow>
 			<EditText
     			android:id="@+id/edtSend"     
     			android:layout_width="fill_parent"    
     			android:layout_height="wrap_content"
-    			android:layout_span="4"/>
+    			android:layout_span="4" />
 			<Button android:id="@+id/btnSend"
 				android:layout_height="wrap_content" 
 				android:layout_width="wrap_content"
